@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF66"
+        android:text="Mon Ngon Mien Bac"
+        android:textSize="20dp" />
+    <ListView
+        android:id="@+id/listview"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF" />
+
+</LinearLayout>

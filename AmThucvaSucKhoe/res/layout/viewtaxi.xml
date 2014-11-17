@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout
+		android:id="@+id/relativeLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:padding="5dip">
+	
+	    <ImageView
+	    	android:layout_width="120dip"
+	    	android:layout_height="80dip"
+	    	android:id="@+id/imgLogoTaxi"
+	    	android:src="@drawable/ic_launcher"
+	    	android:background="#FDFDFD"
+	    	android:layout_alignParentLeft="true"
+	    	android:layout_centerInParent="true"
+	    	android:scaleType="center">
+	    </ImageView>
+	
+	    <TextView
+	    	android:textAppearance="?android:attr/textAppearanceSmall"
+	    	android:layout_height="wrap_content"
+	    	android:text="TextView"
+	    	android:textColor="#FFFF00"
+	    	android:textStyle="italic"
+	    	android:layout_width="wrap_content"
+	    	android:id="@+id/txtNameTaxi"
+	    	android:lines="1"
+	    	android:layout_toRightOf="@+id/imgLogoTaxi"
+	    	android:layout_marginLeft="2dip"
+	    	android:paddingLeft="5dip">
+	    </TextView>
+	
+	    <TextView
+	    	android:layout_height="wrap_content"
+	    	android:text="TextView"
+	    	android:layout_width="wrap_content"
+	    	android:id="@+id/txtPhoneTaxi"
+	    	android:layout_toRightOf="@+id/imgLogoTaxi"
+	    	android:layout_below="@+id/txtNameTaxi"
+	    	android:layout_marginLeft="2dip"
+	    	android:lines="3"
+	    	android:paddingLeft="5dip">
+	    </TextView>
+	
+	</RelativeLayout>

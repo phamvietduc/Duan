@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AmThucvaSucKhoe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_am_thuc_viet">AmThucViet</string>
+    <string name="title_activity_list_mon_an">ListMonAn</string>
+    <string name="ranklabel"></string>
+    <string name="countrylabel"></string>
+    <string name="populationlabel"></string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_meo_vat">MeoVat</string>
+    <string name="title_activity_trung">Trung</string>
+    <string name="title_activity_nam">Nam</string>
+    <string name="title_activity_suc_khoe">SucKhoe</string>
+      <string name="title_activity_webview">WebviewActivity</string>
+      <string name="title_activity_detail">DetailActivity</string>
+      <string name="action_settings">Settings</string>
+
+</resources>
